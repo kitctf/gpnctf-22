@@ -1,1 +1,0 @@
-import{r as n,h as o,E as u}from"./util.jBLjPTRa.js";const c=async s=>{const r=await n(s,"GET","/users");return o(r,[])},f=async(s,r)=>{var t;const e=(t=(await c(s)).data)==null?void 0:t.find(a=>a.id===r);return e?{data:e}:{error:u.NotFound,message:"User not found."}};export{f as a,c as g};

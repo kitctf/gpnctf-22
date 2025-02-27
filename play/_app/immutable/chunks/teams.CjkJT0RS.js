@@ -1,0 +1,1 @@
+import{r as n,h as o,E as m}from"./util.CAVBFLwC.js";const c=async a=>{const t=await n(a,"GET","/teams");return o(t,[])},u=async(a,t)=>{var e;const s=(e=(await c(a)).data)==null?void 0:e.find(r=>r.id===t);return s?{data:s}:{error:m.NotFound,message:"Team not found."}};export{u as a,c as g};
